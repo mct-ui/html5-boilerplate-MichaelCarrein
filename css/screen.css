@@ -88,14 +88,13 @@ figure {
 }
 
 ul,
-ol,
-blockquote {
-
+ol {
+    padding-left: 24px;
 }
 
 li ul,
-li ol{
-
+li ol {
+    margin-bottom: 0;
 }
 
 blockquote {
@@ -119,7 +118,10 @@ figcaption {
 }
 
 hr {
-
+    border: 0;
+    height: 1px;
+    background: lightGray;
+    margin: 0 0 24px;
 }
 
 a {
