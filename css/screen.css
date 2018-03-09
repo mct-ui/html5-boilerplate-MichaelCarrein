@@ -1,7 +1,18 @@
 body {
     background: khaki;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    color: #111;
+    padding: 24px 24px 0;
 }
 
 body img {
     max-width: 100%;
+}
+
+::-moz-selection, ::selection  {
+    background: #E85E00;
+    color: white;
+    text-shadow: none;
 }
